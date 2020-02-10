@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{07E348AC-3208-213D-38E6-BD4F1A932404}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CreateASA.cs">
+    <Files>
+      <File FileName="Assets/Scripts/RoomManager.cs" Line="17" Column="40" />
+      <File FileName="Assets/Scripts/CreateASA.cs" Line="19" Column="50" />
+      <File FileName="Assets/Scripts/FindASA.cs" Line="21" Column="54" />
+      <File FileName="Assets/Scripts/AnchorExchanger.cs" Line="36" Column="35" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AzureSpatialAnchors_Testing" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="AzureSpatialAnchors.SDK" expanded="True">
+                <Node name="Plugins" expanded="True">
+                  <Node name="Common" expanded="True" />
+                </Node>
+                <Node name="Scripts" expanded="True" />
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="CreateASA.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c9636e66-6b64-4256-81b8-d695abc06187" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
