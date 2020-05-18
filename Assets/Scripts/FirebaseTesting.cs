@@ -54,7 +54,7 @@ public class FirebaseTesting : MonoBehaviour
             anchorObjects.Add(anchorObject);
             var json = JsonConvert.SerializeObject(anchorObjects);
 
-            var request = WebRequest.CreateHttp("https://flasasharing.firebaseio.com/anchors.json");
+            var request = WebRequest.CreateHttp("https://<YOURDATABASENAME>.firebaseio.com/anchors.json");
             request.Method = "PUT";
             request.ContentType = "application/json";
             var buffer = Encoding.UTF8.GetBytes(json);
@@ -81,7 +81,7 @@ public class FirebaseTesting : MonoBehaviour
     public IEnumerator FetchCurrentAnchors()
     {
         conflictFound = false;
-        var uwr = UnityWebRequest.Get("https://flasasharing.firebaseio.com/anchors.json");
+        var uwr = UnityWebRequest.Get("https://<YOURDATABASENAME>.firebaseio.com/anchors.json");
         yield return uwr.SendWebRequest();
 
         //Continue if there are anchors stored, otherwise there's no point doing any more
